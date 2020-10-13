@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Loteria dos Sonhos"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36dp"
+            android:gravity="center"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idTentativa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="Digite um número de 1 a 10"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/idEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Enviar"
+            android:textColor="@color/colorSecundary"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/idVersao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v. 2.0"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="right"
+            android:layout_marginTop="340dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
